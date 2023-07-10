@@ -6,8 +6,9 @@ This website is a note taking app with the purpose of keeping the user organized
 
 ## Usage
     
-    ![website-screenshot](./assets/screenshots/Screen%20Shot%202023-07-09%20at%209.05.24%20PM.png)
-    ![website-screenshot](./assets/screenshots/Screen%20Shot%202023-07-09%20at%209.05.32%20PM.png)
+![website-screenshot](./assets/screenshots/Screen%20Shot%202023-07-09%20at%209.05.24%20PM.png)
+
+![website-screenshot](./assets/screenshots/Screen%20Shot%202023-07-09%20at%209.05.32%20PM.png)
     
 
 
