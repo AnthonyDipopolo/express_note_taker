@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="note-taker">
+        <h1>Note Taker</h1>
+        <div>
+            <form action="/notes" method="POST" class="notes-main"></form>
+             <button id="save-button" class="save-btn">Save Note</button>
+            </form>
+
+            <button id="clear-btn" class="save-btn">Create New Note</button>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <section id="note-output" class="saved-notes notes-main">
+            <p>No notes have been added.</p>
+        </section>
+
+        <form action="/notes" method="POST" class="notes-main">
+            <input class="input-title" name="title" type="text" placeholder="Enter note title">
+            <input class="input" name="note" type="text" placeholder="Enter your note">
+            <button id="invisble-btn" class="invisible"></button>
+        </form>
+
+
+    </div>
+
+    <script src="./js/browser.js"></script>
+</body>
+
+</html>
