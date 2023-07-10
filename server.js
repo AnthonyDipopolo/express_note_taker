@@ -30,5 +30,10 @@ app.get('/notes/database', (clientRequestObj, serverResponseObject) => {
     serverResponseObject.send(notes); // Send the notes as the response
 });
 
-app.listen(3001, () => console.log('Server started on port 3001.')); // Start the server and listen on port 3001
+const port = process.env.PORT || 3001;
+
+app.listen(port, () => {
+  console.log(`Server started on port ${port}.`);
+});
+ // Start the server and listen on port 3001 locally 
 
